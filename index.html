@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Space, 2024 Site</title>
+  </head>
+  <body>
+    <!--Loader Spinner-->
+    <div class="loader" id="loader">
+    <div class="planet-spinner">
+      <div class="sun"></div>
+      <div class="planet orbit1"></div>
+      <div class="planet orbit2"></div>
+      <div class="planet orbit3"></div>
+  </div>
+  <div class="loading-text"> LOADING...</div>
+  </div> 
+  
+
+  <!--Navigation Bar-->
+   <nav>
+    <label> <a class="logo" href="index.html">Home Page</a></label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="BTNHOME" href="aurora.html">Aurora</a></li>
+        <li><a class="BTNHOME" href="moon.html">Moon</a></li>
+        <li><a class="BTNHOME" href="Meteor.html">Meteors</a></li>
+        <li><a class="BTNHOME" href="planets.html">Planets</a></li>
+        <li><a class="BTNHOME" href="facts.html">Facts</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="page-title">
+      <h2>Space</h2>
+    </div>
+
+
+    <!-- Photo Slideshow on main page-->
+    <div class="main-container">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">
+            <h2>1 / 3</h2>
+          </div>
+          <img src="img/nasa/nasa photo 3.jpg" style="width: 100%" />
+          <div class="caption">Photo by <a href="https://images.nasa.gov/" target="_blank">Nasa Photos </a>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">
+            <h2>2 / 3</h2>
+          </div>
+          <img src="img/nasa/Nasa photo 5.jpg" style="width: 100%" />
+          <div class="caption">Photo by <a href="https://images.nasa.gov/" target="_blank">Nasa Photos</a>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">
+            <h2>3 / 3</h2>
+          </div>
+          <img src="img/nasa/Nasa photo 6.jpg" style="width: 100%" />
+          <div class="caption">Photo by <a href="https://images.nasa.gov/" target="_blank">Nasa Photos</a>
+          </div>
+        </div>
+        <!--Arrows for slideshow-->
+        <a class="prev" onclick="plusSlides (0, -1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(0, 1)">&#10095;</a>
+        <div class="button-container">
+          <button id="autoplay-toggle-1" class="autoplay-toggle">
+            <span id="autoplay-icon-1">&#9658;</span>
+          </button>
+        </div>
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlides(0, 1)"></span>
+          <span class="dot" onclick="currentSlides(0, 2)"></span>
+          <span class="dot" onclick="currentSlides(0, 3)"></span>
+        </div>
+      </div>
+      <!--Infromation box -->
+      <div class="text-container">
+        <h2>What is Space?</h2>
+        <ul>
+          <li>
+            Space is the area that is directly outside of Earth's atmosphere.
+          </li>
+          <li>
+            Space begins about 100km (62 miles) above earth at a point known as
+            the Kármán Line.
+          </li>
+          <li>
+            Outer space refers to anything outside of Earth's atmosphere. This
+            includes planets, stars, black holes, asteroids, comets, galaxies
+            and lots more!
+          </li>
+          <li>
+            Space mostly consists of Hydrogen and Helium Plasma which is
+            permeated by electromagnetic radiation, cosmic rays, neutrinos,
+            magnetic fields and dust.
+          </li>
+          <li>Space is a near perfect vacuum with extremely low pressure.</li>
+          <li>Its around 13.7 billion years old according to Nasa.</li>
+          <li>
+            Space has no air which means a living thing can not survive without
+            high-tech spacesuits to travel there.
+          </li>
+          <li>
+            The first living thing to enter space was a dog named Laika on the
+            3rd of November 1957.
+          </li>
+          <li>
+            Yuri Gagarin was the first human in space on April 12th 1961. He
+            circled earth at a speed of 27,400 km/h. The total flight lasted 108
+            minutes.
+          </li>
+          <li>
+            95% of Space is invisible meaning that humans only know and see 5%
+            of the universe.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--Icons for each page -->
+    <div class="icon-container">
+      <a href="aurora.html" class="icon">
+        <img src="img/Icons/Aurora icon.png" alt="Aurora Icon" />
+        <div class="Introblurp">This page will teach you all about Aurora!</div>
+      </a>
+      <a href="moon.html" class="icon">
+        <img src="img/Icons/Moon icon.png" alt="Moon Icon" />
+        <div class="Introblurp">
+          This page will teach you all about the moon!
+        </div>
+      </a>
+      <a href="Meteor.html" class="icon">
+        <img src="img/Icons/Meotor shower icon.png" alt="Meotor Shower Icon" />
+        <div class="Introblurp">
+          This page will teach you all about Meteor Showers!
+        </div>
+      </a>
+      <a href="planets.html" class="icon">
+        <img src="img/Icons/Planet icon.png" alt="Planets Icon" />
+        <div class="Introblurp">
+          This page will teach you all about the planets from our solar system!
+        </div>
+      </a>
+      <a href="facts.html" class="icon">
+        <img src="img/Icons/Facts icon.png" alt="Facts Icon" />
+        <div class="Introblurp">
+          This page is filled with fun facts about Space!
+        </div>
+      </a>
+</div>
+    <script src="/javascript/script.js"></script>
+  </body>
+</html>
+<!-- -->
